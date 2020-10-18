@@ -1,0 +1,75 @@
+/* globals */
+.pointer{
+    cursor: pointer;
+}
+
+/* what r u */
+.what-img-container{
+    background-color: #86E6FF;
+}
+.what-img{
+    background-image: url('https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Recruiting-Dice-1024x640.jpg');
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+
+}
+.what-img-heading{
+    display: flex;
+    justify-content: center; 
+}
+.what-radio{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what-radio div input[type="radio"]{
+    display: none;
+}
+.what-radio div{
+    background-color: #7e79ac;
+    margin-bottom: 10px;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+.what-radio div:hover{
+    transform: scale(1.1);
+    background-color: teal;
+}
+.radio-font{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+/* Seeker Form */
+
+#seeker-form{
+    display: none;
+}
+
+/* Recruiter Form */
+
+#recruiter-form{
+    display: none;
+}
+
+/* forms */
+.form{
+    background-color: #86E6FF;
+    padding: 20px 10vw;
+}
+.form-heading{
+    text-align: center;
+}
+.form-text{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(57, 23, 75);
+}
+

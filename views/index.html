@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title>Jobs | Home</title>
+  </head>
+  <body>
+    
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="font-size: xx-large;" href="#">Get A Job</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sign Up <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Post A Job</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Croadcast</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Expert Support</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Job (Skills, Location, Pin)" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <section id="what-ru">
+        <div class="what-img-container"> 
+            <div class="what-img">
+                <div class="what-img-heading">
+                    <h1>Are You A ?</h1>
+                </div>
+                <div class="what-radio">
+                    <div id="recruiter-btn">
+                        <input type="radio" name="what" id="recruiter-radio">
+                        <label class="pointer radio-font" id="recruiter-form-btn" for="recruiter-radio">Recruiter</label>
+                    </div>
+                    <div id="seeker-btn">
+                        <input type="radio" name="what" id="seeker-radio">
+                        <label class="pointer radio-font" id="seeker-form-btn" for="seeker-radio">Seeker</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- seeker form -->
+      <section class="form" id="seeker-form">
+          <div class="form-heading">
+              <h1>Register Yourself As Seeker!</h1>
+          </div>
+          <div class="form-container">
+              <form action="">
+                <div class="form-group col-5">
+                    <input class="form-control" type="text" placeholder="What Do We call you?" required>
+                </div>
+                <div class="form-group col-5">
+                    <input class="form-control" type="email" placeholder="Enter Email" required>
+                </div>
+                <div  class="form-group col-5">
+                    <p class="form-text">Are You?</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input"  type="radio" id="fresher-radio" name="fe" > <label class="form-check-label"  for="fresher-radio">Fresher</label> &nbsp;&nbsp;
+                        <input class="form-check-input"  type="radio" id="experienced-radio" name="fe"> <label class="form-check-label"  for="experienced-radio">Experienced</label>    
+                    </div>
+                </div>
+                
+                <div class="form-group col-5">
+                    <label class="form-text" for="industries">Choose your Field:</label>
+                    <select name="industry" id="insdustries" required>
+                      <option value="it">Information Technology</option>
+                      <option value="ms">Marketing and Sales</option>
+                      <option value="mh">Medical and Health Care</option>
+                      <option value="abf">Accounting, Banking or Finance</option>
+                      <option value="insurance">Insurance</option>
+                    </select> 
+                </div>
+               
+                <div class="form-group col-5">
+                    <label class="form-text" for="location">Choose Job location:</label>
+                    <select name="location" id="location" required>
+                      <option value="pune">Pune</option>
+                      <option value="mumbai">Mumbai</option>
+                      <option value="delhi">Delhi</option>
+                      <option value="bangalore">Bangalore</option>
+                      <option value="hyderabad">Hyderabad</option>
+                      <option value="chennai">Chennai</option>
+                    </select> 
+                </div>
+               
+                <div class="form-group col-5">
+                    <label class="form-text" for="file-upload">Upload Resume (pdf or docx only)</label>
+                    <input class="form-control-file" id="file-upload" type="file" name="foo" accept="application/msword, application/pdf" required>
+                </div>
+                
+                
+
+                <div class="form-group col-5">
+                    <input class="form-control" id="contact" placeholder="Enter Your Contact" type="number">
+
+                </div>
+                <div class="form-group col-5">
+                    <button class="btn btn-info">Send OTP</button>
+
+                </div>
+                <div class="form-group col-5">
+                    <input class="form-control" type="number" name="" id="" placeholder="Enter OTP" required>
+                </div>
+
+                <div class="form-group col-5">
+                    <input class="form-control btn btn-success" type="submit" value="Register">
+                </div>
+              </form>
+          </div>
+      </section>
+
+
+      <!-- recruiter form -->
+      <section class="form" id="recruiter-form">
+        <div class="form-heading">
+            <h1>Register Yourself As Recruiter!</h1>
+        </div>
+        <div class="form-container">
+            <form action="">
+              <div class="form-group col-5">
+                  <input class="form-control" type="text" placeholder="What Do We call you?" required>
+              </div>
+              <div class="form-group col-5">
+                  <input class="form-control" type="email" placeholder="Enter Email" required>
+              </div>
+              <div class="form-group col-5">
+                <input class="form-control" type="text" placeholder="Company Name" required>
+            </div>
+              
+              <div class="form-group col-5">
+                  <label class="form-text" for="industries">Preferred Field:</label>
+                  <select name="industry" id="insdustries" required>
+                    <option value="it">Information Technology</option>
+                    <option value="ms">Marketing and Sales</option>
+                    <option value="mh">Medical and Health Care</option>
+                    <option value="abf">Accounting, Banking or Finance</option>
+                    <option value="insurance">Insurance</option>
+                  </select> 
+              </div>
+             
+              <div class="form-group col-5">
+                  <label class="form-text" for="location">Preferred location:</label>
+                  <select name="location" id="location" required>
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="chennai">Chennai</option>
+                  </select> 
+              </div>
+             
+              <div  class="form-group col-5">
+                <p class="form-text">Are You?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input"  type="radio" id="fr-radio" name="fe" > <label class="form-check-label"  for="fr-radio">Freshers</label> &nbsp;&nbsp;
+                    <input class="form-check-input"  type="radio" id="jtm-radio" name="fe"> <label class="jtm"  for="jtm-radio">Junior to Mid</label> &nbsp;&nbsp;
+                    <input class="form-check-input"  type="radio" id="mts-radio" name="fe"> <label class="form-check-label"  for="mts-radio">Mid To Senior</label> &nbsp;&nbsp;
+                    <input class="form-check-input"  type="radio" id="cxo-radio" name="fe"> <label class="form-check-label"  for="cxo-radio">CXO</label> &nbsp;&nbsp;   
+                </div>
+            </div>
+
+            <div class="form-group col-5">
+                <p class="form-text">Blue Collar Workforce?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="bc" id="bc-yes"> <label class="form-check-label" for="bc-yes">Yes</label>&nbsp;&nbsp;
+                    <input class="form-check-input" type="radio" name="bc" id="bc-no"> <label class="form-check-label" for="bc-no">No</label>
+                </div>
+            </div>
+
+
+              <div class="form-group col-5">
+                  <input class="form-control" id="contact" placeholder="Enter Your Contact" type="number">
+              </div>
+              <div class="form-group col-5">
+                  <button class="btn btn-info">Send OTP</button>
+
+              </div>
+              <div class="form-group col-5">
+                  <input class="form-control" type="number" name="" id="" placeholder="Enter OTP" required>
+              </div>
+
+              <div class="form-group col-5">
+                  <input class="form-control btn btn-success" type="submit" value="Register">
+              </div>
+            </form>
+         </div>
+        </section>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- external script file -->
+        <script src="../js/index.js"></script>
+
+    </body>
+</html>
